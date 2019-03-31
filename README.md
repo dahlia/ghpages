@@ -40,8 +40,11 @@ The discussion is documented [here](https://github.com/maxheld83/ghaction-ghpage
 
 ## Environment Variables
 
-Just `BUILD_DIR`, the build directory relative to your repository root.
-You can also pass `.` if you want to push your repository root.
+- `BUILD_DIR`: The build directory relative to your repository root.
+  You can also pass `.` if you want to push your repository root.
+
+- `NO_SQUASH`: Set to any value (e.g., `1`) to turn off squash commit.
+  By default, commits are squashed so that there is only one commit.
 
 
 ## Arguments
